@@ -1,0 +1,16 @@
+.Home {
+	background-color: #021C1E;
+	width: 100%;
+	min-height: 100vh;
+	max-width: 2000px;
+  min-width: 360px;
+  margin: 0 auto;
+}
+
+.teas {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}

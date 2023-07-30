@@ -1,0 +1,34 @@
+.Tea_card {
+	margin: 15px;
+	overflow: hidden;
+	width: 450px;
+	height: 480px;
+	background-color: #2C7873;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: transform 500ms ease;
+}
+
+.Tea_card:hover {
+	transition: 300ms ease;
+	transform: scale(0.95);
+	border: solid 3px rgb(14, 193, 110);
+}
+
+.Tea_card__poster img {
+	width: 100%;
+}
+
+.imagecard {
+	width: 450px;
+	height: 380px;
+}
+
+.info {
+	color: #021C1E;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 6px;
+}
